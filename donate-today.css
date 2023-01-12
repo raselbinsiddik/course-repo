@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    text-align: center;
+    padding: 18px 35px;
+    font-size: 20px;
+    background-color: orangered;
+    color: #ffff;
+    border-radius: 5px;
+}
+/* header menu */
+.header{
+    background-image: url("./donate-today/images/donation5.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    }
+.nav-title{
+    font-weight: 700;
+   font-size: 60px;
+   color: white;
+}  
+nav li{
+    margin-top: 300px;
+}  
+
+/* main section */
+.section-title{
+    text-align: center;
+    background-color: #ffff;
+}
+.sub-title{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.donate-container{
+    display: flex;
+    gap: 24px;
+}
+.donate{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 5px;
+     text-align: center;
+}
+.donate-title{
+     font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: bisque;
+    margin-left: 35px;
+    padding: 70px;
+    height: 220px;
+    border: 2px yellow solid;
+   
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* donate plane */
+.donate-plane{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.donate-plane-description{
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+.needs-1{
+    background-color: bisque;
+    margin: 10px;
+    height: 350px;
+}
+.needs-2{
+    background-color: bisque;
+    margin: 10px;
+    height: 350px;
+}
+.needs-3{
+    background-color: bisque;
+    margin: 10px;
+    height: 350px;
+}
+.needs-title{
+    text-align: center;
+}
+/* donation depend */
+.donation{
+    display: flex;
+    gap: 24px;
+    margin: 40px;
+}
+.donation-depend{
+    background-color: antiquewhite;
+    text-align: left;
+}
+/* footer menu */
+.update{
+    text-align: center;
+    margin: 30px;
+}
+.h1{
+    font-size: 50px;
+    margin: 30px;
+}
+.input{
+    border-radius: 10px;
+    text-align: center;
+   background-color: wheat;
+   padding: 60px;
+   margin:40px;
+}
+.email{
+    border-radius: 5px;
+    padding: 10px;
+    width: 220px;
+    background-color:  gainsboro;
+}
+.subscribe{
+    border-radius: 5px;
+    padding: 10px;
+    width: 130px;
+    background-color: rgba(255, 0, 0, 0.295);
+}
+.footer{
+    background-color: black;
+    padding: 70px;
+    margin-top: 30px 30px;
+   
+}
+.humble{
+    color: red;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+}
+.gonna{
+    color: antiquewhite;
+    text-align: center;
+}
