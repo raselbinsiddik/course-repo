@@ -1,0 +1,193 @@
+
+body{
+   font-family: 'Poppins', sans-serif;
+  background-color: #f3f1ff;
+}
+ 
+
+/* nav styles */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.nav-title{
+    margin-left: 60px;
+    font-size: 20px;
+    color: #434343;
+}
+.nav-menu{
+    margin-top: 25px;
+    
+  }
+  .nav-menu a{
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 40px;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  /* header-section */
+  .header-section{
+    display: flex;
+    gap: 44px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+.section-description{
+    width: 45%;
+    
+}
+.section-title{
+    font-weight: 700px;
+    font-size: 50px;
+     color: #434343;
+}
+.btn{
+    padding: 10px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    width: 150px;
+
+}
+.images-1{
+    width: 45%;
+    border: 1px solid #1111;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+/* logos section */
+.logos-icon{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  
+  
+}
+.icon{
+  margin-top: 40px;
+  padding: 10px;
+}
+/* section-container */
+.popular-title{
+  font-size: 30px;
+  color: #434343;
+  text-align: center;
+}
+.popular-collections{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.collection{
+  background-color: #ffff;
+}
+
+.collection .thumbnail img{
+  width: 330px;
+  height: 470;
+}
+.fa-star{
+  font-size: 12px;
+ 
+}
+.fa-star.filled{
+  color: orange;
+}
+.fa-star.half-filled{
+  color: #FB8200;
+}
+.button{
+  margin-top: 5%;
+  justify-content: flex-end;
+  margin-left: 90%;
+  color: #E02C6D;
+}
+/* join now */
+.join-now{
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+
+}
+
+ .join{
+   padding: 30px;
+
+ }
+ .featured-title{
+  font-weight: 600;
+  font-size: 30px;
+  
+ }
+ .btn-primary{
+  padding: 15px;
+  width: 200px;
+  background-color: #E02C6D;
+  font-size: 20px;
+  border-radius: 10px;
+ }
+ .footer{
+  padding-top: 30px;
+  background-color: #434343;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+ 
+ }
+ .footer-title h1{
+ 
+  font-size: 20px;
+  }
+  .contact img{
+    padding: 5px;
+  }
+  
+@media only screen and (max-width:577px) {
+
+  .header-section{
+    flex-direction: column-reverse;
+    
+  }
+  
+
+  .section-description{
+    text-align: center;
+    
+    width: 100%;
+  }
+  
+  .logos-icon{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 100%;
+   }
+
+  .popular-collections{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
+  }
+  .camara{
+    text-align: center;
+    width: 100%;
+    
+  }
+  .join-now{
+    flex-direction: column-reverse;
+  }
+  .join{
+    text-align: center;
+    width: 100%;
+  }
+   
+}
